@@ -63,7 +63,7 @@ class Banner extends Nerv.Component {
           </h2>
           <div className='banner_btns'>
             {isCn && (
-              <a className='toDoc' href='https://nervjs.github.io/docs/'>
+              <a className='toDoc' href='https://nervjs.github.io/taro/'>
                 起步
               </a>
             )}
