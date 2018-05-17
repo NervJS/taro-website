@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+.banner {
+  position: relative;
+  top: 0;
+  width: 100%;
+  min-width: 1190px;
+  height: 500px;
+  background: url('../../static/images/banner.jpg') top left / 100% 100% no-repeat #191a1e;
+
+  &_main {
+    color: #fff;
+    text-align: center;
+    padding: 175px 0 0;
+  }
+  &_code_main {
+    width: 400px;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+  }
+  &_tit {
+    font-family: Seravek, "Sans-serif";
+    font-size: 50px;
+    width: 320px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+  }
+  &_desc {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 0.5;
+  }
+  &_play_btn {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-image: url('../../static/images/icons/icon_video.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position: absolute;
+    top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    opacity: 0.5;
+
+    &:hover {
+      transform: scale(1.1);
+      opacity: 1;
+    }
+  }
+  &_btns {
+    width: 280px;
+    margin: 32px auto 0;
+    a {
+      font-size: 14px;
+      border-radius: 20px;
+      width: 125px;
+      height: 38px;
+      line-height: 38px;
+      display: inline-block;
+      color: #fff;
+      z-index: 10;
+      position: relative;
+      background-color: #4573de;
+      transition: all 0.3s ease;
+      &::before {
+        position: relative;
+        top: 4px;
+        // left: -4px;
+        margin-right: 8px;
+        background-repeat: no-repeat;
+        content: '';
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        background-size: 100%;
+      }
+      &:hover {
+        color: #fff;
+        background-color: #3361D8;
+      }
+    }
+    .toDoc {
+      margin-right: 18px;
+      &::before {
+        background-image: url('../../static/images/icons/icon_guide.png');
+      }
+    }
+    .toGithub {
+      &::before {
+        background-image: url('../../static/images/icons/icon_github.png');
+      }
+    }
+  }
+}

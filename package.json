@@ -1,0 +1,39 @@
+{
+  "name": "nerv-webside",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "intl": "^1.2.5",
+    "nervjs": "^1.2.18",
+    "react-hljs": "^1.0.0",
+    "react-intl": "^2.4.0",
+    "react-syntax-highlighter": "^6.0.4"
+  },
+  "scripts": {
+    "precommit": "lint-staged",
+    "eslint": "eslint src config",
+    "eslint:fix": "eslint src config --fix",
+    "deploy": "sh ./deploy.sh"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-intl": "^2.3.3",
+    "babel-eslint": "^7.2.3",
+    "copy-webpack-plugin": "^4.3.1",
+    "eslint": "^4.6.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-jsx": "^4.0.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.3.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.0"
+  }
+}
