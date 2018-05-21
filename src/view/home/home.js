@@ -42,6 +42,17 @@ const FeatureLoadable = Loadable({
   delay: 0
 })
 
+const SupportLoadable = Loadable({
+  loader: () => import(
+    /* webpackChunkName: "support" */
+    '../../component/feature/support'
+  ),
+  loading: loadingPlaceholder.bind(null, {
+    height: '830px'
+  }),
+  delay: 0
+})
+
 const CompareLoadable = Loadable({
   loader: () => import(
     /* webpackChunkName: "compare" */
@@ -99,6 +110,9 @@ export default function Home () {
       </Lazyload>
       <Lazyload height={830} {...lazyloadOptions}>
         <FeatureLoadable />
+      </Lazyload>
+      <Lazyload height={830} {...lazyloadOptions}>
+        <SupportLoadable />
       </Lazyload>
       {/* <Lazyload height={881} {...lazyloadOptions}>
         <CompareLoadable />

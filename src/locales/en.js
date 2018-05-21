@@ -5,6 +5,7 @@ export default {
     'A set of multi-end development solutions that follow the React grammar specificatio.',
   getting_started: 'Getting started',
   features: 'Features',
+  support: 'Support',
   benchmarks: 'Benchmarks',
   examples: 'Examples',
   users: 'Users',
@@ -21,6 +22,19 @@ export default {
   compat_desc: 'Based on babel compiling, the user can select the ES version to use, and the @tarojs/async-await package can be used to use the async function syntax.',
   battle: 'Resource reference',
   battle_desc: 'Can easily reference local images, fonts, JSON files and other static resources, taro will automatically analyze the file dependencies, and replace the corresponding path',
+
+  support1: 'WeChat applets',
+  support2: 'H5',
+  support3: 'React Native',
+  support4: 'Fast application',
+  support5: 'Alipay applet',
+  support6: 'More…',
+  support1_desc: ' ',
+  support2_desc: ' ',
+  support3_desc: 'Stay tuned',
+  support4_desc: 'Stay tuned',
+  support5_desc: 'Stay tuned',
+  support6_desc: 'Stay tuned',
 
   js_framework:
     'The JS web frameworks benchmark is a simple benchmark, comparing various typical app operations for several JavaScript frameworks. The benchmarks creates a large table with randomized entries and measures the time for various operations.',

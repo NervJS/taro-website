@@ -27,7 +27,7 @@
       p {
         font-weight: 600;
         margin-top: -10px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         a {
           color: inherit;
         }
@@ -36,6 +36,10 @@
   }
   &_icon {
     background-size: 45% auto;
+    height: 60px;
+    // float: left;
+    display: inline-block;
+    background-position: center;
 
     &_tiny {
       background-image: url('../../static/images/icons/icon_multiend.png');
@@ -59,18 +63,43 @@
       // width: 45px;
       background-image: url('../../static/images/icons/icon_es.png');
       background-repeat: no-repeat;
-      background-size: 50% auto;
     }
     &_tool {
       // width: 45px;
       background-image: url('../../static/images/icons/icon_source.png');
       background-repeat: no-repeat;
     }
-    height: 60px;
-    // float: left;
-    margin-right: 10px;
-    display: inline-block;
-    background-position: center;
+    &_wechat {
+      // width: 45px;
+      background-image: url('../../static/images/icons/icon_wechat.png');
+      background-repeat: no-repeat;
+    }
+    &_h5 {
+      // width: 45px;
+      background-image: url('../../static/images/icons/icon_h5.png');
+      background-repeat: no-repeat;
+      background-size: 50% auto;
+    }
+    &_rn {
+      // width: 45px;
+      background-image: url('../../static/images/icons/icon_react.png');
+      background-repeat: no-repeat;
+    }
+    &_fastapp {
+      // width: 45px;
+      background-image: url('../../static/images/icons/icon_fastapp.png');
+      background-repeat: no-repeat;
+    }
+    &_alipay {
+      // width: 45px;
+      background-image: url('../../static/images/icons/icon_alipay.png');
+      background-repeat: no-repeat;
+    }
+    &_more {
+      // width: 45px;
+      background-image: url('../../static/images/icons/icon_more.png');
+      background-repeat: no-repeat;
+    }
     &::after {
       content: '';
       display: inline-block;
@@ -82,7 +111,13 @@
   }
   &_desc {
     float: left;
+    width: 100%;
     text-align: center;
     font-size: 14px;
+  }
+}
+.feture_main_grey{
+  .feature_icon, .feature_desc, p{
+    opacity: 0.5;
   }
 }

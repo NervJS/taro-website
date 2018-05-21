@@ -4,6 +4,7 @@ export default {
   banner_desc: '一套遵循React语法规范的多端开发解决方案',
   getting_started: '起步',
   features: '特性 Features',
+  support: '支持 Support',
   benchmarks: '性能 Benchmarks',
   users: '使用者 Users',
   examples: '代码示例 Examples',
@@ -21,6 +22,19 @@ export default {
   battle: '资源引用',
   battle_desc: '可以很方便地引用本地图片、字体、JSON文件等静态资源，taro会自动分析文件依赖关系，并替换相应路径',
   
+  support1: '微信小程序',
+  support2: 'H5',
+  support3: 'React Native',
+  support4: '快应用',
+  support5: '支付宝小程序',
+  support6: '更多…',
+  support1_desc: ' ',
+  support2_desc: ' ',
+  support3_desc: '敬请期待',
+  support4_desc: '敬请期待',
+  support5_desc: '敬请期待',
+  support6_desc: '敬请期待',
+
   js_framework:
     '这是个简单的测试框架性能的例子。我们选取了一些市面上常用的JS框架，通过随机创建一个大型的表格，对比他们的运行速率，可以看到Nerv执行完所有用例的时间远低于其他框架。',
   memory:
