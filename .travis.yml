@@ -23,4 +23,4 @@ env:
   global:
   - CXX: g++-4.8
   - GH_REF: github.com/NervJS/taro-website.git
-  - secure: e16397116be21c14cc29a50b15917ba4848932a6
+  - GH_TOKEN: e16397116be21c14cc29a50b15917ba4848932a6
