@@ -20,7 +20,7 @@ script:
 - ath2 build
 # - npm run deploy "${TRAVIS_PULL_REQUEST}"
 after_script:
-  - cd ./dist
+  - cd dist
   - git init
   - git config user.name "ltp11"
   - git config user.email "823285635@qq.com"
