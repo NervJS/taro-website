@@ -7,6 +7,6 @@ then ( cd dist
   git config user.email "823285635@qq.com"
   git add .
   git commit -m "Deployed to Github Pages [skip ci]"
-  git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages
+  git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
 )
 fi
