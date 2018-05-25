@@ -1376,20 +1376,20 @@ natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
 
-nerv-shared@1.2.5-beta.2:
-  version "1.2.5-beta.2"
-  resolved "https://registry.npmjs.org/nerv-shared/-/nerv-shared-1.2.5-beta.2.tgz#3a236907f68d6787fcc4e5e73b02a9214fca7edf"
+nerv-shared@1.2.15:
+  version "1.2.15"
+  resolved "https://registry.npmjs.org/nerv-shared/-/nerv-shared-1.2.15.tgz#9e7c7f3e32447fe8ae40efdd2ddc85b395797e77"
 
-nerv-utils@1.2.4-beta.1:
-  version "1.2.4-beta.1"
-  resolved "https://registry.npmjs.org/nerv-utils/-/nerv-utils-1.2.4-beta.1.tgz#b55e614c086b9b446dfcae9355fdb5b7d45da6df"
+nerv-utils@1.2.15:
+  version "1.2.15"
+  resolved "https://registry.npmjs.org/nerv-utils/-/nerv-utils-1.2.15.tgz#e6db2dc4f9ee1b7a4030920c19ebdd6ea9d86ae9"
 
-nervjs@^1.2.5-beta.3:
-  version "1.2.5-beta.3"
-  resolved "https://registry.npmjs.org/nervjs/-/nervjs-1.2.5-beta.3.tgz#552d2a87bdcf1656e7534a9908af7f66065a896b"
+nervjs@^1.2.18:
+  version "1.2.18"
+  resolved "https://registry.npmjs.org/nervjs/-/nervjs-1.2.18.tgz#d1b9c394338cf938f11fabcd3f3f469de0dd139b"
   dependencies:
-    nerv-shared "1.2.5-beta.2"
-    nerv-utils "1.2.4-beta.1"
+    nerv-shared "1.2.15"
+    nerv-utils "1.2.15"
 
 node-fetch@^1.0.1:
   version "1.7.3"

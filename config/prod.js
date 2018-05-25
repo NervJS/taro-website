@@ -1,7 +1,7 @@
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
-  publicPath: '//labs.qiang.it/taro/',
+  publicPath: '//storage.360buyimg.com/taro-static/',
   // environment variables
   env: {
     NODE_ENV: '"production"'
