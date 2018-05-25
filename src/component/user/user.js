@@ -26,7 +26,7 @@ class User extends Nerv.Component {
             <div className='user_wrap'>
               <div className='user_card'>
                 <a href='http://jd.com/' className='user_card_img' target='_blank' />
-                {isCN && <span className='user_desc'>京东商城</span>}
+                {isCN && <span className='user_desc'>京东购物</span>}
                 {!isCN && <span className='user_desc'>JD MALL</span>}
               </div>
             </div>
