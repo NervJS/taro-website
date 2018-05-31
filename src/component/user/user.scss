@@ -6,13 +6,13 @@
   border-top: 1px solid #e3e6e9;
   background-color: #fff;
   &_main {
-    width: 40%;
+    width: 60%;
     overflow: hidden;
     padding: 0 50px;
     margin: 0 auto;
   }
   &_wrap {
-    width: 50%;
+    width: 33.33%;
     box-sizing: border-box;
     padding: 0 25px;
     height: 250px;
@@ -28,6 +28,13 @@
       .user_card_img {
         background-size: 60% auto;
         background-image: url('../../static/images/logos/qrcode.jpeg')
+      }
+    }
+    &:nth-child(3) {
+      padding-left: 15px;
+      .user_card_img {
+        background-size: 60% auto;
+        background-image: url('../../static/images/logos/qrcode2.jpg')
       }
     }
   }

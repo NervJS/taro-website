@@ -37,6 +37,13 @@ class User extends Nerv.Component {
                 {!isCN && <span className='user_desc'>TOPLIFE</span>}
               </div>
             </div>
+            <div className='user_wrap'>
+              <div className='user_card'>
+                <a href='javascript:;' className='user_card_img' target='_blank' />
+                {isCN && <span className='user_desc'>一起有局</span>}
+                {!isCN && <span className='user_desc'>PARTY TOGETHER</span>}
+              </div>
+            </div>
           </div>
         </div>
       </div>
