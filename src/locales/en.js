@@ -31,7 +31,7 @@ export default {
   support6: 'More…',
   support1_desc: ' ',
   support2_desc: ' ',
-  support3_desc: 'Stay tuned',
+  support3_desc: 'Comming soon',
   support4_desc: 'Stay tuned',
   support5_desc: 'Stay tuned',
   support6_desc: 'Stay tuned',

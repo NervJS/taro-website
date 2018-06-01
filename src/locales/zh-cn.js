@@ -30,7 +30,7 @@ export default {
   support6: '更多…',
   support1_desc: ' ',
   support2_desc: ' ',
-  support3_desc: '敬请期待',
+  support3_desc: '即将上线',
   support4_desc: '敬请期待',
   support5_desc: '敬请期待',
   support6_desc: '敬请期待',
