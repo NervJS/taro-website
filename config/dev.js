@@ -7,7 +7,7 @@ module.exports = {
   defineConstants: {
   },
   // dev server port
-  port: 3000,
+  port: 3001,
   // dev server host
   host: '0.0.0.0',
   // dev server protocol, support https
