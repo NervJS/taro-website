@@ -62,7 +62,7 @@ class Nav extends Nerv.Component {
       <div className={overbanner ? 'nav_overbanner nav' : 'nav'}>
         <Toast show={this.state.tip} />
         <div className='grid_c1'>
-          <span className='nav_logo' />
+          {/* <span className='nav_logo' /> */}
           <span className='nav_logo_text'>Taro</span>
           <ul className='nav_content'>
             <li>
