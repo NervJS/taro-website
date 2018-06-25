@@ -80,7 +80,7 @@ class Banner extends Nerv.Component {
           <pre className='banner_code_main' style='color: rgb(169, 183, 198); background: rgb(40, 43, 46); display: block; overflow-x: auto; padding: 30px; border-radius: 4px;'>
             <code>
               <span style='color: rgb(128, 128, 128);'>/** Quick Start With NPM Or Yarn **/</span><br />
-              $ npm install -g @tarojs/cli<br />$ yarn add global @tarojs/cli
+              $ npm install -g @tarojs/cli<br />$ yarn global add @tarojs/cli
             </code>
           </pre>
         </div>
