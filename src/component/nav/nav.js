@@ -71,14 +71,7 @@ class Nav extends Nerv.Component {
               </a>
             </li>
             <li>
-              <a
-                href={
-                  isCN
-                    ? 'https://nervjs.github.io/taro/'
-                    : 'https://github.com/NervJS/taro'
-                }
-                target='_blank'
-              >
+              <a href='https://nervjs.github.io/taro/' target='_blank'>
                 <FormattedMessage id='docs' />
               </a>
             </li>
