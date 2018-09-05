@@ -2,7 +2,7 @@ export default {
   home: 'Home',
   docs: 'Docs',
   banner_desc:
-    'A set of multi-end development solutions that follow the React grammar specification.',
+    'A multi-terminal unified development framework that follows the React grammar specification.',
   getting_started: 'Getting started',
   features: 'Features',
   support: 'Support',

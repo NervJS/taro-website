@@ -1,7 +1,7 @@
 export default {
   home: '首页',
   docs: '文档',
-  banner_desc: '一套 React 语法规范的多端开发解决方案',
+  banner_desc: '一套遵循 React 语法规范的多端统一开发框架',
   getting_started: '起步',
   features: '特性 Features',
   support: '支持 Support',
