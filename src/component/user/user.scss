@@ -10,22 +10,8 @@
     overflow: hidden;
     padding: 0 50px;
     margin: 0 auto;
-  }
-  &_other {
-    width: 80%;
-    overflow: hidden;
-    padding: 0 50px;
-    margin: 0 auto;
-    &_wrap {
-      width: 16.666%;
-      box-sizing: border-box;
-      padding: 25px;
-      float: left;
-      text-align: center;
-      img{
-        width: 100px;
-        height: 100px;
-      }
+    &_show {
+      width: 100%;
     }
   }
   &_wrap {
