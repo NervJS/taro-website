@@ -23,7 +23,7 @@ class Feature extends Nerv.Component {
           <div className='feature_main'>
             <div>
               <h3>
-                <span className='feature_icon feature_icon_tiny' />
+                <span className='feature_icon feature_icon_multiend' />
                 <p>
                   <FormattedMessage id='size' />
                 </p>
@@ -34,7 +34,7 @@ class Feature extends Nerv.Component {
             </div>
             <div>
               <h3>
-                <span className='feature_icon feature_icon_faster' />
+                <span className='feature_icon feature_icon_gammer' />
                 <p>
                   <FormattedMessage id='perf' />
                 </p>
@@ -45,7 +45,7 @@ class Feature extends Nerv.Component {
             </div>
             <div>
               <h3>
-                <span className='feature_icon feature_icon_virtual' />
+                <span className='feature_icon feature_icon_conponent' />
                 <p>
                   <FormattedMessage id='ecos' />
                 </p>
@@ -56,7 +56,7 @@ class Feature extends Nerv.Component {
             </div>
             <div>
               <h3>
-                <span className='feature_icon feature_icon_types' />
+                <span className='feature_icon feature_icon_es' />
                 <p>
                   <FormattedMessage id='isom' />
                 </p>
@@ -67,7 +67,7 @@ class Feature extends Nerv.Component {
             </div>
             <div>
               <h3>
-                <span className='feature_icon feature_icon_ie' />
+                <span className='feature_icon feature_icon_develope' />
                 <p>
                   <FormattedMessage id='compat' />
                 </p>
@@ -78,7 +78,7 @@ class Feature extends Nerv.Component {
             </div>
             <div>
               <h3>
-                <span className='feature_icon feature_icon_tool' />
+                <span className='feature_icon feature_icon_flow' />
                 <p>
                   <FormattedMessage id='battle' />
                 </p>

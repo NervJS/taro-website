@@ -43,7 +43,7 @@ class Support extends Nerv.Component {
                 <FormattedMessage id='support2_desc' />
               </p>
             </div>
-            <div className='feture_main_grey'>
+            <div>
               <h3>
                 <span className='feature_icon feature_icon_rn' />
                 <p>
@@ -78,7 +78,7 @@ class Support extends Nerv.Component {
             </div>
             <div className='feture_main_grey'>
               <h3>
-                <span className='feature_icon feature_icon_more' />
+                <span className='feature_icon feature_icon_baidu' />
                 <p>
                   <FormattedMessage id='support6' />
                 </p>

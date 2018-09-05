@@ -6,13 +6,30 @@
   border-top: 1px solid #e3e6e9;
   background-color: #fff;
   &_main {
-    width: 60%;
+    width: 80%;
     overflow: hidden;
     padding: 0 50px;
     margin: 0 auto;
   }
+  &_other {
+    width: 80%;
+    overflow: hidden;
+    padding: 0 50px;
+    margin: 0 auto;
+    &_wrap {
+      width: 16.666%;
+      box-sizing: border-box;
+      padding: 25px;
+      float: left;
+      text-align: center;
+      img{
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
   &_wrap {
-    width: 33.33%;
+    width: 25%;
     box-sizing: border-box;
     padding: 0 25px;
     height: 250px;
@@ -37,6 +54,13 @@
         background-image: url('../../static/images/logos/qrcode2.jpg')
       }
     }
+    &:nth-child(4) {
+      padding-left: 15px;
+      .user_card_img {
+        background-size: 60% auto;
+        background-image: url('../../static/images/logos/qrcode3.jpg')
+      }
+    }
   }
   &_desc {
     position: relative;
@@ -45,26 +69,14 @@
     width: 100%;
     display: inline-block;
     font-size: 14px;
-    color: #ccc;
+    color: #4d4d4d;
     transition: all 0.4s ease;
   }
   &_card {
     margin: 0 auto;
     height: 100%;
-
-    &:hover {
-      .user_desc {
-        color: #4d4d4d;
-      }
-      .user_card_img {
-        filter: grayscale(0%);
-        opacity: 1;
-      }
-    }
   }
   &_card_img {
-    opacity: 0.6;
-    filter: grayscale(100%);
     transition: all 0.4s ease;
     display: inline-block;
     width: 100%;
