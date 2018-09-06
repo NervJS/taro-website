@@ -10,6 +10,7 @@
     display: inline-block;
     box-sizing: border-box;
     width: 30%;
+    min-width: 148px;
   }
 
   .footer-logo {
@@ -22,15 +23,17 @@
   }
 
   .footer-link-container {
-    display: inline-flex;
+    display: inline-block;
     vertical-align: top;
     box-sizing: border-box;
     width: 70%;
   }
 
   .footer-link {
-    flex: 1;
-
+    display: inline-block;
+    width: 33.33%;
+    min-width: 180px;
+    vertical-align: top;
     h3 {
       padding-bottom: 20px;
       font-size: 18px;
