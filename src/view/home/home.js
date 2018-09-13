@@ -81,7 +81,7 @@ const TeamLoadable = Loadable({
     '../../component/team/team'
   ),
   loading: loadingPlaceholder.bind(null, {
-    height: '145px'
+    height: '902px'
   }),
   delay: 0
 })
@@ -120,7 +120,7 @@ export default function Home () {
       <Lazyload height={341} {...lazyloadOptions}>
         <UserLoadable />
       </Lazyload>
-      <Lazyload height={145} {...lazyloadOptions}>
+      <Lazyload height={902} {...lazyloadOptions}>
         <TeamLoadable />
       </Lazyload>
       <Lazyload height={145} {...lazyloadOptions}>

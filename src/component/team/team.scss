@@ -6,14 +6,16 @@
   &_main {
     width: 100%;
     margin-top: 60px;
-    div {
+    a {
       width: 33%;
+      display: block;
       float: left;
       box-sizing: border-box;
       padding: 25px 50px;
       border-radius: 6px;
       margin-bottom: 50px;
       transition: all 0.3s ease;
+      color: #232321;
       &:hover {
         box-shadow: 0 5px 25px #eceef0;
       }
