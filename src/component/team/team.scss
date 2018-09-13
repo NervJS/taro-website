@@ -1,0 +1,73 @@
+@charset "UTF-8";
+.team {
+  overflow: hidden;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  &_main {
+    width: 100%;
+    margin-top: 60px;
+    div {
+      width: 33%;
+      float: left;
+      box-sizing: border-box;
+      padding: 25px 50px;
+      border-radius: 6px;
+      margin-bottom: 50px;
+      transition: all 0.3s ease;
+      &:hover {
+        box-shadow: 0 5px 25px #eceef0;
+      }
+    }
+    h3 {
+      text-align: center;
+      color: #2C405A;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 40px;
+      p {
+        font-weight: 600;
+        margin-top: -10px;
+        margin-bottom: 10px;
+        a {
+          color: inherit;
+        }
+      }
+    }
+  }
+  &_icon {
+    background-size: 45% auto;
+    height: 60px;
+    // float: left;
+    display: inline-block;
+    background-position: center;
+
+    &_core {
+      background-image: url('../../static/images/icons/core.png');
+      background-repeat: no-repeat;
+    }
+    &_partner {
+      // width: 48px;
+      background-image: url('../../static/images/icons/partner.png');
+      background-repeat: no-repeat;
+    }
+    &_contributor {
+      background-image: url('../../static/images/icons/contributor.png');
+      background-repeat: no-repeat;
+      background-size: 50% auto;
+    }
+    &::after {
+      content: '';
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      border: 1px solid #ccc;
+      border-radius: 50%;
+    }
+  }
+  &_desc {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+  }
+}

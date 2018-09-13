@@ -8,6 +8,7 @@ export default {
   benchmarks: '性能 Benchmarks',
   users: '使用者 Users',
   examples: '代码示例 Examples',
+  teams: 'Taro 开发团队',
   
   size: '多端运行',
   size_desc: '一键生成可以在微信小程序/H5/ReactNative等端运行的代码',
@@ -44,5 +45,12 @@ export default {
   db_monster:
     '我们增加了UI渲染性能这个维度来体现nerv在各方面变现的优秀性。对比与其他框架，nerv的fps高达160帧/秒，如此高的渲染性能，实现丝滑般体验的动画效果将不再是件难事。',
   learn_more: '了解更多',
-  time: '现在的时间是'
+  time: '现在的时间是',
+
+  teamCore: '核心开发者',
+  teamCoreDesc: 'Taro 各个模块的核心开发者与管理者',
+  teamPartner: '战略合作伙伴',
+  teamPartnerDesc: '共同参与 Taro 的研发和推广，监督 Taro 的发展流程',
+  teamHero: '个人开发者',
+  teamHeroDesc: '为 Taro 贡献过代码的个人',
 }

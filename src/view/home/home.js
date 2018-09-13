@@ -86,6 +86,17 @@ const UserLoadable = Loadable({
   delay: 0
 })
 
+const TeamLoadable = Loadable({
+  loader: () => import(
+    /* webpackChunkName: "team" */
+    '../../component/team/team'
+  ),
+  loading: loadingPlaceholder.bind(null, {
+    height: '145px'
+  }),
+  delay: 0
+})
+
 const CopyrightLoadable = Loadable({
   loader: () => import(
     /* webpackChunkName: "copyright" */
@@ -122,6 +133,9 @@ export default function Home () {
       </Lazyload>
       <Lazyload height={341} {...lazyloadOptions}>
         <UserLoadable />
+      </Lazyload>
+      <Lazyload height={145} {...lazyloadOptions}>
+        <TeamLoadable />
       </Lazyload>
       <Lazyload height={145} {...lazyloadOptions}>
         <CopyrightLoadable />

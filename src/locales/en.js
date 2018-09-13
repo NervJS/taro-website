@@ -9,6 +9,7 @@ export default {
   benchmarks: 'Benchmarks',
   examples: 'Examples',
   users: 'Users',
+  teams: 'Taro Teams',
 
   size: 'Multi-end operation',
   size_desc: "One-click generation of code that can be run on WeChat applets/H5/ReactNative peers",
@@ -42,5 +43,12 @@ export default {
   ui_bench: `UI Benchmark is considered a more accurate test of overall UI performance in a library. The tests were run with Full Render Time enabled and 5 Iterations. Read UI Benchmark's notes for caveats and stipulations before drawing further conclusions.`,
   db_monster: 'DB Monster is a basic app to test repaint rate of JS libraries.',
   learn_more: 'Learn more',
-  time: 'The time is'
+  time: 'The time is',
+
+  teamCore: 'Core developer',
+  teamCoreDesc: 'Core developers and managers of Taro',
+  teamPartner: 'Strategic partner',
+  teamPartnerDesc: 'Participate in Taro\'s research, development and promotion, and supervise Taro\'s development process',
+  teamHero: 'Individual developer',
+  teamHeroDesc: 'An individual who contributed code to Taro',
 }
