@@ -45,10 +45,10 @@ export default {
   learn_more: 'Learn more',
   time: 'The time is',
 
-  teamCore: 'Core developer',
-  teamCoreDesc: 'Core developers and managers of Taro',
-  teamPartner: 'Strategic partner',
-  teamPartnerDesc: 'Participate in Taro\'s research, development and promotion, and supervise Taro\'s development process',
-  teamHero: 'Individual developer',
-  teamHeroDesc: 'An individual who contributed code to Taro',
+  teams_core: 'Core developer',
+  teams_core_desc: 'Core developers and managers of Taro',
+  teams_partner: 'Strategic partner',
+  teams_partner_desc: 'Participate in Taro\'s research, development and promotion, and supervise Taro\'s development process',
+  teams_hero: 'Individual developer',
+  teams_hero_desc: 'An individual who contributed code to Taro',
 }

@@ -20,33 +20,33 @@ class Team extends Nerv.Component {
               <h3>
                 <span className='team_icon team_icon_core' />
                 <p>
-                  <FormattedMessage id='teamCore' />
+                  <FormattedMessage id='teams_core' />
                 </p>
               </h3>
               <p className='team_desc'>
-                <FormattedMessage id='teamCoreDesc' />
+                <FormattedMessage id='teams_core_desc' />
               </p>
             </div>
             <div>
               <h3>
                 <span className='team_icon team_icon_partner' />
                 <p>
-                  <FormattedMessage id='teamPartner' />
+                  <FormattedMessage id='teams_partner' />
                 </p>
               </h3>
               <p className='team_desc'>
-                <FormattedMessage id='teamPartnerDesc' />
+                <FormattedMessage id='teams_partner_desc' />
               </p>
             </div>
             <div>
               <h3>
                 <span className='team_icon team_icon_contributor' />
                 <p>
-                  <FormattedMessage id='teamHero' />
+                  <FormattedMessage id='teams_hero' />
                 </p>
               </h3>
               <p className='team_desc'>
-                <FormattedMessage id='teamHeroDesc' />
+                <FormattedMessage id='teams_hero_desc' />
               </p>
             </div>
           </div>

@@ -53,17 +53,6 @@ const SupportLoadable = Loadable({
   delay: 0
 })
 
-const CompareLoadable = Loadable({
-  loader: () => import(
-    /* webpackChunkName: "compare" */
-    '../../component/compare/compare'
-  ),
-  loading: loadingPlaceholder.bind(null, {
-    height: '881px'
-  }),
-  delay: 0
-})
-
 const CodeLoadable = Loadable({
   loader: () => import(
     /* webpackChunkName: "code" */
@@ -125,9 +114,6 @@ export default function Home () {
       <Lazyload height={830} {...lazyloadOptions}>
         <SupportLoadable />
       </Lazyload>
-      {/* <Lazyload height={881} {...lazyloadOptions}>
-        <CompareLoadable />
-      </Lazyload> */}
       <Lazyload height={705} {...lazyloadOptions}>
         <CodeLoadable />
       </Lazyload>

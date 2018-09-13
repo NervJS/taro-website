@@ -47,10 +47,10 @@ export default {
   learn_more: '了解更多',
   time: '现在的时间是',
 
-  teamCore: '核心开发者',
-  teamCoreDesc: 'Taro 各个模块的核心开发者与管理者',
-  teamPartner: '战略合作伙伴',
-  teamPartnerDesc: '共同参与 Taro 的研发和推广，监督 Taro 的发展流程',
-  teamHero: '个人开发者',
-  teamHeroDesc: '为 Taro 贡献过代码的个人',
+  teams_core: '核心开发者',
+  teams_core_desc: 'Taro 各个模块的核心开发者与管理者',
+  teams_partner: '战略合作伙伴',
+  teams_partner_desc: '共同参与 Taro 的研发和推广，监督 Taro 的发展流程',
+  teams_hero: '个人开发者',
+  teams_hero_desc: '为 Taro 贡献过代码的个人',
 }
