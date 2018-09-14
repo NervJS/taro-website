@@ -8,8 +8,8 @@ export default {
   support: 'Support',
   benchmarks: 'Benchmarks',
   examples: 'Examples',
-  users: 'Users',
-  teams: 'Taro Teams',
+  users: 'Cases',
+  teams: 'Team',
 
   size: 'Multi-end operation',
   size_desc: "One-click generation of code that can be run on WeChat applets/H5/ReactNative peers",

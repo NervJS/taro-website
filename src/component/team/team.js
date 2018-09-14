@@ -23,20 +23,20 @@ class Team extends Nerv.Component {
                   <FormattedMessage id='teams_core' />
                 </p>
               </h3>
-              <p className='team_desc'>
+              {/* <p className='team_desc'>
                 <FormattedMessage id='teams_core_desc' />
-              </p>
+              </p> */}
             </a>
-            <a href='//nervjs.github.io/taro/docs/team.html#%E6%88%98%E7%95%A5%E5%90%88%E4%BD%9C%E4%BC%99%E4%BC%B4%EF%BC%88%E8%81%94%E5%90%88%E5%9B%A2%E9%98%9F%EF%BC%89'>
+            <a href='//nervjs.github.io/taro/docs/team.html#%E6%88%98%E7%95%A5%E5%90%88%E4%BD%9C%E4%BC%99%E4%BC%B4-%E8%81%94%E5%90%88%E5%9B%A2%E9%98%9F'>
               <h3>
                 <span className='team_icon team_icon_partner' />
                 <p>
                   <FormattedMessage id='teams_partner' />
                 </p>
               </h3>
-              <p className='team_desc'>
+              {/* <p className='team_desc'>
                 <FormattedMessage id='teams_partner_desc' />
-              </p>
+              </p> */}
             </a>
             <a href='//nervjs.github.io/taro/docs/team.html#%E4%B8%AA%E4%BA%BA%E8%B4%A1%E7%8C%AE%E8%80%85'>
               <h3>
@@ -45,9 +45,9 @@ class Team extends Nerv.Component {
                   <FormattedMessage id='teams_hero' />
                 </p>
               </h3>
-              <p className='team_desc'>
+              {/* <p className='team_desc'>
                 <FormattedMessage id='teams_hero_desc' />
-              </p>
+              </p> */}
             </a>
           </div>
         </div>

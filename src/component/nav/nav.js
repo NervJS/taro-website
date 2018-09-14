@@ -71,12 +71,12 @@ class Nav extends Nerv.Component {
               </a>
             </li>
             <li>
-              <a href='https://nervjs.github.io/taro/' target='_blank'>
+              <a href='//nervjs.github.io/taro/docs/README.html' target='_blank'>
                 <FormattedMessage id='docs' />
               </a>
             </li>
             <li>
-              <a href='https://github.com/NervJS/taro' target='_blank'>
+              <a href='//github.com/NervJS/taro' target='_blank'>
                 GitHub
               </a>
             </li>

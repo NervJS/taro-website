@@ -4,11 +4,11 @@ export default {
   banner_desc: '一套遵循 React 语法规范的多端统一开发框架',
   getting_started: '起步',
   features: '特性 Features',
-  support: '支持 Support',
+  support: '多端适配 Support',
   benchmarks: '性能 Benchmarks',
-  users: '使用者 Users',
+  users: '应用案例 Cases',
   examples: '代码示例 Examples',
-  teams: 'Taro 开发团队',
+  teams: '开发团队 Team',
   
   size: '多端运行',
   size_desc: '一键生成可以在微信小程序/H5/ReactNative等端运行的代码',
@@ -51,6 +51,6 @@ export default {
   teams_core_desc: 'Taro 各个模块的核心开发者与管理者',
   teams_partner: '战略合作伙伴',
   teams_partner_desc: '共同参与 Taro 的研发和推广，监督 Taro 的发展流程',
-  teams_hero: '个人开发者',
+  teams_hero: '个人贡献者',
   teams_hero_desc: '为 Taro 贡献过代码的个人',
 }
