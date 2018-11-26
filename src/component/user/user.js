@@ -23,7 +23,7 @@ class User extends Nerv.Component {
         <div className='grid_c1'>
           <CpTitle data={'users'} />
           <div className='user_main'>
-            <img className='user_main_show' src='//storage.360buyimg.com/taro-resource/articles.jpg' />
+            <img className='user_main_show' src='https://storage.jd.com/taro-resource/user-cases.png' />
           </div>
         </div>
       </div>
