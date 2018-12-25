@@ -54,18 +54,7 @@ class Support extends Nerv.Component {
                 <FormattedMessage id='support3_desc' />
               </p>
             </div>
-            <div className='feture_main_grey'>
-              <h3>
-                <span className='feature_icon feature_icon_fastapp' />
-                <p>
-                  <FormattedMessage id='support4' />
-                </p>
-              </h3>
-              <p className='feature_desc'>
-                <FormattedMessage id='support4_desc' />
-              </p>
-            </div>
-            <div className='feture_main_grey'>
+            <div>
               <h3>
                 <span className='feature_icon feature_icon_alipay' />
                 <p>
@@ -76,7 +65,7 @@ class Support extends Nerv.Component {
                 <FormattedMessage id='support5_desc' />
               </p>
             </div>
-            <div className='feture_main_grey'>
+            <div>
               <h3>
                 <span className='feature_icon feature_icon_baidu' />
                 <p>
@@ -85,6 +74,17 @@ class Support extends Nerv.Component {
               </h3>
               <p className='feature_desc'>
                 <FormattedHTMLMessage id='support6_desc' />
+              </p>
+            </div>
+            <div className='feture_main_grey'>
+              <h3>
+                <span className='feature_icon feature_icon_fastapp' />
+                <p>
+                  <FormattedMessage id='support4' />
+                </p>
+              </h3>
+              <p className='feature_desc'>
+                <FormattedMessage id='support4_desc' />
               </p>
             </div>
           </div>

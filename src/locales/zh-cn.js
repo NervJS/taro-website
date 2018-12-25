@@ -33,8 +33,8 @@ export default {
   support2_desc: ' ',
   support3_desc: ' ',
   support4_desc: '即将上线',
-  support5_desc: '适配中',
-  support6_desc: '适配中',
+  support5_desc: ' ',
+  support6_desc: ' ',
 
   js_framework:
     '这是个简单的测试框架性能的例子。我们选取了一些市面上常用的JS框架，通过随机创建一个大型的表格，对比他们的运行速率，可以看到Nerv执行完所有用例的时间远低于其他框架。',
