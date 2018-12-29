@@ -9,7 +9,7 @@ export default {
   users: '应用案例 Cases',
   examples: '代码示例 Examples',
   teams: '开发团队 Team',
-  
+
   size: '多端运行',
   size_desc: '一键生成可以在微信小程序/H5/ReactNative等端运行的代码',
   perf: '语法风格',
@@ -22,19 +22,23 @@ export default {
   compat_desc: '贴心的代码智能提示,实时代码检查,让开发效率大幅提升',
   battle: '现代化开发流程',
   battle_desc: '配套的开发工具Taro CLI让开发流程自动化，一切都从一行命令开始',
-  
+
   support1: '微信小程序',
   support2: 'H5',
   support3: 'React Native',
   support4: '快应用',
   support5: '支付宝小程序',
   support6: '百度智能小程序',
+  support7: '字节跳动小程序',
+  support8: 'QQ 浏览器轻应用',
   support1_desc: ' ',
   support2_desc: ' ',
   support3_desc: ' ',
   support4_desc: '即将上线',
   support5_desc: ' ',
   support6_desc: ' ',
+  support7_desc: ' ',
+  support8_desc: '即将上线',
 
   js_framework:
     '这是个简单的测试框架性能的例子。我们选取了一些市面上常用的JS框架，通过随机创建一个大型的表格，对比他们的运行速率，可以看到Nerv执行完所有用例的时间远低于其他框架。',
@@ -52,5 +56,5 @@ export default {
   teams_partner: '战略合作伙伴',
   teams_partner_desc: '共同参与 Taro 的研发和推广，监督 Taro 的发展流程',
   teams_hero: '个人贡献者',
-  teams_hero_desc: '为 Taro 贡献过代码的个人',
+  teams_hero_desc: '为 Taro 贡献过代码的个人'
 }

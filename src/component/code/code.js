@@ -77,80 +77,80 @@ export default class Index extends Component {
   }
 }`
 
-//     const codeString2 = `import Nerv from 'nervjs'
+    //     const codeString2 = `import Nerv from 'nervjs'
 
-// class TodoList extends Nerv.Component {
-//   constructor () {
-//     super(...arguments)
-//     this.state = {
-//       todos: [],
-//       inputTodoValue: ''
-//     }
-//   }
+    // class TodoList extends Nerv.Component {
+    //   constructor () {
+    //     super(...arguments)
+    //     this.state = {
+    //       todos: [],
+    //       inputTodoValue: ''
+    //     }
+    //   }
 
-//   addTodoKey = e => {
-//     if (e && e.keyCode === 13) {
-//       this.addTodo({
-//         createTime: new Date().getTime(),
-//         title: e.target.value
-//       })
-//     }
-//   }
+    //   addTodoKey = e => {
+    //     if (e && e.keyCode === 13) {
+    //       this.addTodo({
+    //         createTime: new Date().getTime(),
+    //         title: e.target.value
+    //       })
+    //     }
+    //   }
 
-//   addTodoClick = () => {
-//     this.addTodo({
-//       createTime: new Date().getTime(),
-//       title: this.state.inputTodoValue
-//     })
-//   }
+    //   addTodoClick = () => {
+    //     this.addTodo({
+    //       createTime: new Date().getTime(),
+    //       title: this.state.inputTodoValue
+    //     })
+    //   }
 
-//   addTodo (todoItem) {
-//     const todos = this.state.todos.concat()
-//     todos.push(todoItem)
-//     this.setState({
-//       todos
-//     })
-//   }
+    //   addTodo (todoItem) {
+    //     const todos = this.state.todos.concat()
+    //     todos.push(todoItem)
+    //     this.setState({
+    //       todos
+    //     })
+    //   }
 
-//   setTodoValue = e => {
-//     this.changeTimer && clearTimeout(this.changeTimer)
-//     this.changeTimer = setTimeout(() => {
-//       this.setState({
-//         inputTodoValue: e.target.value
-//       })
-//     }, 100)
-//   }
+    //   setTodoValue = e => {
+    //     this.changeTimer && clearTimeout(this.changeTimer)
+    //     this.changeTimer = setTimeout(() => {
+    //       this.setState({
+    //         inputTodoValue: e.target.value
+    //       })
+    //     }, 100)
+    //   }
 
-//   deleteTodo (index, e) {
-//     e.preventDefault()
-//     const todos = this.state.todos.concat()
-//     todos.splice(index, 1)
-//     this.setState({
-//       todos
-//     })
-//   }
+    //   deleteTodo (index, e) {
+    //     e.preventDefault()
+    //     const todos = this.state.todos.concat()
+    //     todos.splice(index, 1)
+    //     this.setState({
+    //       todos
+    //     })
+    //   }
 
-//   render () {
-//     return (
-//       <div className='todo'>
-//         <div className='todo_add'>
-//           <input type='text' onKeyDown={this.addTodoKey} onChange={this.setTodoValue} />
-//           <button onClick={this.addTodoClick}>add</button>
-//         </div>
-//         <ul className='list'>
-//           {this.state.todos.map((item, index) => (
-//             <li className='list_item'>
-//               <span>{item.title}</span>
-//               <a href=' ' onClick={this.deleteTodo.bind(this, index)}>x</a >
-//             </li>
-//           ))}
-//         </ul>
-//       </div>
-//     )
-//   }
-// }
+    //   render () {
+    //     return (
+    //       <div className='todo'>
+    //         <div className='todo_add'>
+    //           <input type='text' onKeyDown={this.addTodoKey} onChange={this.setTodoValue} />
+    //           <button onClick={this.addTodoClick}>add</button>
+    //         </div>
+    //         <ul className='list'>
+    //           {this.state.todos.map((item, index) => (
+    //             <li className='list_item'>
+    //               <span>{item.title}</span>
+    //               <a href=' ' onClick={this.deleteTodo.bind(this, index)}>x</a >
+    //             </li>
+    //           ))}
+    //         </ul>
+    //       </div>
+    //     )
+    //   }
+    // }
 
-// export default TodoList`
+    // export default TodoList`
     const { currentIdx } = this.state
     return (
       <div className='code'>

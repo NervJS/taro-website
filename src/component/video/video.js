@@ -8,7 +8,7 @@ import './video.scss'
 
 class Video extends Nerv.Component {
   render () {
-    const {play, pause} = this.props
+    const { play, pause } = this.props
     const video = this.refs.video
     let body = document.getElementsByTagName('body')[0]
     let html = document.getElementsByTagName('html')[0]

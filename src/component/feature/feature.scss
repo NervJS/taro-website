@@ -88,7 +88,7 @@
     }
     &_fastapp {
       // width: 45px;
-      background-image: url('../../static/images/icons/icon_fastapp.png');
+      background-image: url('../../static/images/icons/icon_quickapp.png');
       background-repeat: no-repeat;
     }
     &_alipay {
@@ -100,6 +100,18 @@
     &_baidu {
       // width: 45px;
       background-image: url('../../static/images/icons/icon_baidu.png');
+      background-repeat: no-repeat;
+      background-size: 55% auto;
+    }
+    &_tt {
+      // width: 45px;
+      background-image: url('../../static/images/icons/icon_tt.png');
+      background-repeat: no-repeat;
+      background-size: 55% auto;
+    }
+    &_qqbrowser {
+      // width: 45px;
+      background-image: url('../../static/images/icons/icon_qqbrowser.png');
       background-repeat: no-repeat;
       background-size: 55% auto;
     }
@@ -122,6 +134,13 @@
     width: 100%;
     text-align: center;
     font-size: 14px;
+  }
+}
+.support {
+  &_main {
+    div {
+      width: 25%;
+    }
   }
 }
 .feture_main_grey{

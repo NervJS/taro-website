@@ -17,10 +17,10 @@ class Support extends Nerv.Component {
 
   render () {
     return (
-      <div className='feature' style="border-top: 1px solid #e3e6e9;">
+      <div className='feature support' style="border-top: 1px solid #e3e6e9;">
         <div className='grid_c1'>
           <CpTitle data='support' />
-          <div className='feature_main'>
+          <div className='feature_main support_main'>
             <div>
               <h3>
                 <span className='feature_icon feature_icon_wechat' />
@@ -76,6 +76,17 @@ class Support extends Nerv.Component {
                 <FormattedHTMLMessage id='support6_desc' />
               </p>
             </div>
+            <div>
+              <h3>
+                <span className='feature_icon feature_icon_tt' />
+                <p>
+                  <FormattedMessage id='support7' />
+                </p>
+              </h3>
+              <p className='feature_desc'>
+                <FormattedHTMLMessage id='support7_desc' />
+              </p>
+            </div>
             <div className='feture_main_grey'>
               <h3>
                 <span className='feature_icon feature_icon_fastapp' />
@@ -85,6 +96,17 @@ class Support extends Nerv.Component {
               </h3>
               <p className='feature_desc'>
                 <FormattedMessage id='support4_desc' />
+              </p>
+            </div>
+            <div className='feture_main_grey'>
+              <h3>
+                <span className='feature_icon feature_icon_qqbrowser' />
+                <p>
+                  <FormattedMessage id='support8' />
+                </p>
+              </h3>
+              <p className='feature_desc'>
+                <FormattedMessage id='support8_desc' />
               </p>
             </div>
           </div>

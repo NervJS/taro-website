@@ -12,7 +12,7 @@ export default {
   teams: 'Team',
 
   size: 'Multi-end operation',
-  size_desc: "One-click generation of code that can be run on WeChat applets/H5/ReactNative peers",
+  size_desc: 'One-click generation of code that can be run on WeChat applets/H5/ReactNative peers',
   perf: 'Grammar style',
   perf_desc: 'Adopt React syntax standard, support JSX writing, make code more expressive',
   ecos: 'Componentized',
@@ -24,18 +24,22 @@ export default {
   battle: 'Modern development process',
   battle_desc: 'The development tool Taro CLI automates the development process, starting with one line of commands',
 
-  support1: 'WeChat applets',
+  support1: 'Miniprogram',
   support2: 'H5',
   support3: 'React Native',
-  support4: 'Fast application',
+  support4: 'Quick App',
   support5: 'Alipay applet',
   support6: 'Baidu Smart applet',
+  support7: 'ByteDance Mini App',
+  support8: 'QQ Browser Mini App',
   support1_desc: ' ',
   support2_desc: ' ',
   support3_desc: ' ',
   support4_desc: 'Comming soon',
-  support5_desc: 'Adapting',
-  support6_desc: 'Adapting',
+  support5_desc: ' ',
+  support6_desc: ' ',
+  support7_desc: ' ',
+  support8_desc: 'Comming soon',
 
   js_framework:
     'The JS web frameworks benchmark is a simple benchmark, comparing various typical app operations for several JavaScript frameworks. The benchmarks creates a large table with randomized entries and measures the time for various operations.',
@@ -50,5 +54,5 @@ export default {
   teams_partner: 'Strategic partner',
   teams_partner_desc: 'Participate in Taro\'s research, development and promotion, and supervise Taro\'s development process',
   teams_hero: 'Individual developer',
-  teams_hero_desc: 'An individual who contributed code to Taro',
+  teams_hero_desc: 'An individual who contributed code to Taro'
 }

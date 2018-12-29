@@ -186,7 +186,7 @@ class LazyLoad extends Nerv.Component {
     if (placeholder && placeholder.type === 'Widget') {
       return placeholder
     }
-    return <div className={placeholderClassName} style={{height: height}} />
+    return <div className={placeholderClassName} style={{ height: height }} />
   }
 }
 

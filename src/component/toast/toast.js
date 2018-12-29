@@ -13,7 +13,7 @@ class Toast extends Nerv.Component {
   }
 
   render () {
-    const {show} = this.props
+    const { show } = this.props
     return (
       <div className={show ? 'toast' : 'toast hide'}>
         Coming Soon 敬请期待!
