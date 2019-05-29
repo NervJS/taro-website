@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="74px" viewBox="0 0 100 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>banner_2_top</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="77.7436485%" x2="0%" y2="22.2563515%" id="linearGradient-1">
+            <stop stop-color="#533BF5" offset="0%"></stop>
+            <stop stop-color="#14EAFB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="54.0861621%" x2="0%" y2="54.0861621%" id="linearGradient-2">
+            <stop stop-color="#5736FC" offset="0%"></stop>
+            <stop stop-color="#00A5FE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="17.1987826%" y1="61.0783463%" x2="67.2867096%" y2="43.4141597%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.23" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="banner_2" transform="translate(-21.000000, -83.000000)">
+            <g id="编组-7" transform="translate(22.000000, 0.000000)">
+                <g id="banner_2_top" transform="translate(0.000000, 84.000000)">
+                    <path d="M97.9974115,28.0897636 C98.0388326,27.2586096 97.5802753,26.4814242 96.8275551,26.1070334 L52.2261884,0.682259638 C50.4548269,-0.327810461 47.3620487,-0.201551698 45.3159841,0.962834665 L1.69028708,25.8077533 C0.435178004,26.5232197 0.0231233261,27.3930022 0.0231233261,28.3095473 C-0.00529423791,28.4965973 -0.0100304986,44.7278627 0.0231233261,44.9102364 C-0.0182977098,45.7413904 0.440259518,46.5185758 1.19297971,46.8929666 L45.7943464,72.3177404 C47.5657079,73.3278105 50.6584861,73.2015517 52.7045507,72.0371653 L96.316039,47.1782179 C97.5664118,46.4627516 97.9784665,45.5789403 97.9784665,44.6764239 C97.9974115,44.5127552 97.9974115,28.4591873 97.9974115,28.0897636 Z" id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                    <path d="M45.7917346,54.3273146 L1.19384983,29.3008274 C-0.574931603,28.3049318 -0.352651583,26.5713358 1.69043285,25.4232895 L45.2951516,0.950077611 C47.3429654,-0.19796869 50.4359682,-0.322455638 52.2047497,0.66882932 L96.8026345,25.6999272 C98.5761453,26.6958228 98.3538653,28.4294188 96.3060515,29.5774651 L52.7013327,54.050677 C50.6393308,55.1987233 47.546328,55.3232102 45.7917346,54.3273146 Z" id="Shape" fill="url(#linearGradient-2)" fill-rule="nonzero"></path>
+                    <path d="M45.7917346,54.3273146 L1.19384983,29.3008274 C-0.574931603,28.3049318 -0.352651583,26.5713358 1.69043285,25.4232895 L45.2951516,0.950077611 C47.3429654,-0.19796869 50.4359682,-0.322455638 52.2047497,0.66882932 L96.8026345,25.6999272 C98.5761453,26.6958228 98.3538653,28.4294188 96.3060515,29.5774651 L52.7013327,54.050677 C50.6393308,55.1987233 47.546328,55.3232102 45.7917346,54.3273146 Z" id="Shape" stroke="#FFFFFF" stroke-width="0.5" opacity="0.22" style="mix-blend-mode: overlay;"></path>
+                    <path d="M69,16.6935503 L42.0377418,1 L1.6963944,24.1419876 C-0.353895257,25.3370011 -0.576959178,27.1415194 1.19806011,28.1781576 L24.9282645,42 L69,16.6935503 Z" id="Shape" fill="url(#linearGradient-3)" fill-rule="nonzero"></path>
+                    <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" style="mix-blend-mode: overlay;" cx="50.5" cy="27" rx="17.5" ry="10"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

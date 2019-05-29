@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="284px" viewBox="0 0 500 284" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>banner</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="66.1312%" x2="0%" y2="33.8688%" id="linearGradient-1">
+            <stop stop-color="#157EFF" offset="0%"></stop>
+            <stop stop-color="#74CAFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="54.0861621%" x2="0%" y2="54.0861621%" id="linearGradient-2">
+            <stop stop-color="#0028B4" offset="0%"></stop>
+            <stop stop-color="#157EFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="66.1984297%" x2="0%" y2="33.8015703%" id="linearGradient-3">
+            <stop stop-color="#157EFF" offset="0%"></stop>
+            <stop stop-color="#74CAFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="66.1770895%" x2="0%" y2="33.8229105%" id="linearGradient-4">
+            <stop stop-color="#533BF5" offset="0%"></stop>
+            <stop stop-color="#14EAFB" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="66.0980306%" x2="0%" y2="33.9019694%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#14EAFB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="banner_1" transform="translate(0.000000, -216.000000)" fill-rule="nonzero">
+            <g id="banner" transform="translate(0.000000, 216.000000)">
+                <ellipse id="椭圆形" fill="url(#linearGradient-1)" opacity="0.146437872" cx="250" cy="142" rx="250" ry="142"></ellipse>
+                <ellipse id="椭圆形" fill="url(#linearGradient-2)" cx="250" cy="121" rx="109" ry="62"></ellipse>
+                <ellipse id="椭圆形" fill="url(#linearGradient-3)" opacity="0.204938616" cx="250" cy="126.5" rx="159" ry="90.5"></ellipse>
+                <ellipse id="椭圆形" fill="url(#linearGradient-4)" cx="250" cy="111" rx="109" ry="62"></ellipse>
+                <ellipse id="椭圆形" stroke="url(#linearGradient-5)" style="mix-blend-mode: overlay;" cx="250" cy="107.5" rx="88.5" ry="50"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
