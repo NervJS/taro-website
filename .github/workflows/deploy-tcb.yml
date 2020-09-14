@@ -13,10 +13,6 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-      # - name: build
-      #   run: |
-      #     yarn
-      #     yarn build:independent
       - name: Deploy static to Tencent CloudBase
         id: deployStatic
         uses: TencentCloudBase/cloudbase-action@v1.1.1
@@ -25,3 +21,7 @@ jobs:
           secretKey: ${{ secrets.TCB_SECRET_KEY }}
           envId: ${{ secrets.TCB_TARO_WWW_ENV_ID }}
           staticSrcPath: ./
+      # - name: build
+      #   run: |
+      #     yarn
+      #     yarn build:independent
