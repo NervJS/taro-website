@@ -13,9 +13,9 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-      # - name: build
-      #   run: |
-      #     yarn
+      - name: build
+        run: |
+          yarn
       #     yarn build:independent
       - name: Deploy static to Tencent CloudBase
         id: deployStatic
