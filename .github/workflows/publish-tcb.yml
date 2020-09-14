@@ -21,7 +21,3 @@ jobs:
           secretKey: ${{ secrets.TCB_SECRET_KEY }}
           envId: ${{ secrets.TCB_TARO_WWW_ENV_ID }}
           staticSrcPath: ./
-      # - name: build
-      #   run: |
-      #     yarn
-      #     yarn build:independent
