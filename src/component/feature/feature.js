@@ -56,7 +56,7 @@ class Feature extends Nerv.Component {
             </div>
             <div>
               <h3>
-                <span className='feature_icon feature_icon_es' />
+                <span className='feature_icon feature_icon_ts' />
                 <p>
                   <FormattedMessage id='isom' />
                 </p>
